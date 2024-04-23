@@ -7,3 +7,5 @@ A group of codes for modeling two-photon transitions in a variety of atoms. No g
 * CombExcitationCalc_ManyDifferentLengths: For calculating the effect of different bandwidths for direct comb excitation. Hidden behind the simulation is the assumption that bandwidth is significantly smaller than 1 THz (intermediate state detuning)
 
 * ResidualDopplerBroadening: For a given spectral bandwidth FWHM, calculates the effective lineshape accounting for residual doppler broadening. Run this simulation several times to find what spectral bandwidths result in minimal residual doppler broadening.
+
+* TransitTime: A very simple code for calculating the transit time broadening for a given temperature and beam size. Technically works for any atom, but the variables are preset for Rb87

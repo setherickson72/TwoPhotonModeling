@@ -10,4 +10,4 @@ A group of codes for modeling two-photon transitions in a variety of atoms. No g
 
 * TransitTime: A very simple code for calculating the transit time broadening for a given temperature and beam size. Technically works for any atom, but the variables are preset for Rb87
 
-* CombExcitationCalc_ChangingLengthChirp: Similar to CombExcitationCalc_ManyDifferentLengths, but allows for simulation over a range of chirps.
+* CombExcitationCalc_GDD: Similar to CombExcitationCalc_ManyDifferentLengths, but allows for simulation over a range of chirps.

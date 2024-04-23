@@ -11,3 +11,5 @@ A group of codes for modeling two-photon transitions in a variety of atoms. No g
 * TransitTime: A very simple code for calculating the transit time broadening for a given temperature and beam size. Technically works for any atom, but the variables are preset for Rb87
 
 * CombExcitationCalc_GDD: Similar to CombExcitationCalc_ManyDifferentLengths, but allows for simulation over a range of chirps.
+
+* DensityMatrixMath_Function_Simple: Numerically solves the three level approximation of our two-photon excitation. Currently uses monochromatic excitation, could be adapted for comb based excitation. I'm sorry that this code will look incomprehensible, but it might make some sense after reading section 2.2.1 of my dissertation.
